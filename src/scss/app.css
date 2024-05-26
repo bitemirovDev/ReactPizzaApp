@@ -3,7 +3,7 @@
   margin: 0;
   list-style: none;
   outline: none;
-  font-family: 'Proxima Nova', Roboto, system-ui, Tahoma, sans-serif;
+  font-family: "Proxima Nova", Roboto, system-ui, Tahoma, sans-serif;
   box-sizing: border-box;
 }
 
@@ -55,12 +55,9 @@ a {
 }
 .header__logo {
   display: flex;
-  align-items: center;
 }
 .header__logo img {
   margin-right: 15px;
-  width: 53px;
-  height: 53px;
 }
 .header__logo h1 {
   color: #181818;
@@ -119,8 +116,7 @@ a {
 .button--black {
   background-color: #232323;
 }
-.button--black:hover,
-.button--black:active {
+.button--black:hover, .button--black:active {
   background-color: #3d3d3d;
 }
 .button--outline {
@@ -197,6 +193,8 @@ a {
 
 .categories ul {
   display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 .categories ul li {
   background-color: #f9f9f9;
@@ -259,8 +257,7 @@ a {
   padding: 12px 20px;
   cursor: pointer;
 }
-.sort__popup ul li.active,
-.sort__popup ul li:hover {
+.sort__popup ul li.active, .sort__popup ul li:hover {
   background: rgba(254, 95, 30, 0.05);
 }
 .sort__popup ul li.active {
@@ -496,8 +493,7 @@ body {
   height: 11.5px;
   position: relative;
 }
-.cart__item-remove .button:hover,
-.cart__item-remove .button:active {
+.cart__item-remove .button:hover, .cart__item-remove .button:active {
   border-color: #2a2a2a;
   background-color: #2a2a2a;
 }
@@ -581,4 +577,4 @@ body {
   margin: 0 auto;
   font-weight: 600;
   font-size: 18px;
-} /*# sourceMappingURL=app.css.map */
+}/*# sourceMappingURL=app.css.map */
